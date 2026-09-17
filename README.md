@@ -5,7 +5,7 @@ Information about books gets saved in an automatic way into a local books.dat fi
 
 # Features
 1.	Adding new books having:
-### Book ID
+* Book ID
 		Title 
 	Author
 		Category
