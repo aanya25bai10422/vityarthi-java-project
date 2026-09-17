@@ -6,10 +6,10 @@ Information about books gets saved in an automatic way into a local books.dat fi
 # Features
 1.	Adding new books having:
 * Book ID
-		Title 
-	Author
-		Category
-		No. of copies
+* Title 
+* Author
+* Category
+* No. of copies
 2.	Searching books by Book Name 
 3.	Issuing books
 4.	Receiving books
@@ -18,10 +18,10 @@ Information about books gets saved in an automatic way into a local books.dat fi
 7.	Avoiding issuing of books when no copies available
 8.	Preventing deletion of books which are currently issued
 9.	Statistics of Library:
-	Total no. of Book Titles
-	Total no. of Copies
-	Available Copies
-	Issued Copies
+* Total no. of Book Titles
+* Total no. of Copies
+* Available Copies
+* Issued Copies
 10.	Automatic Saving and Loading of Books Data
 11.	User-Friendly Graphical User Interface (GUI)
 12.	Button having rounded edges and hover effect
@@ -29,20 +29,20 @@ Information about books gets saved in an automatic way into a local books.dat fi
 
 # Technologies and Tools Used
 Programming Language
-•	Java
+  * Java
 GUI
-•	Java Swing
-•	Java AWT
+  * Java Swing
+  * Java AWT
 File Handling
-•	ObjectOutputStream
-•	ObjectInputStream
-•	Java Serialization
+  * ObjectOutputStream
+  * ObjectInputStream
+  * Java Serialization
 Data Structure
-•	ArrayList
+  * ArrayList
 Development Tools
-•	JDK (Java Development Kit)
-•	 IntelliJ IDEA
-•	Git and GitHub for version control and project submission
+  * JDK (Java Development Kit)
+  * IntelliJ IDEA
+  * Git and GitHub for version control and project submission
 
 # Installation and Setup
 Step 1: Installing Java
@@ -75,33 +75,39 @@ Library Manager application window will open.
 
 
 # How to Use the Application
+
 1. Add Book
 Click Add Book and enter:
-•	Book ID
-•	Book Title
-•	Author
-•	Category
-•	Total Number of Copies
+* Book ID
+* Book Title
+* Author
+* Category
+* Total Number of Copies
 The book will be added to the library and its information will appear in the table.
+
 2. Search Book
 Click Search and enter the Book Name.
 The application displays the books:
-•	ID
-•	Title
-•	Author
-•	Category
-•	Total Copies
-•	Available Copies
-•	Issued Copies
+* ID
+* Title
+* Author
+* Category
+* Total Copies
+* Available Copies
+* Issued Copies
+
 3. Issue Book
 Click Issue Book and enter the Book Name.
 If a copy is available, the available copy count decreases and the issued copy count increases.
+
 4. Return Book
 Click Return Book and enter the Book Name.
 The available copy count increases and the issued copy count decreases.
+
 5. Remove Book
 Click Remove and enter the Book Name.
 A book can only be removed when none of its copies are currently issued.
+
 6. Refresh
 Click Refresh to reload the table and update the dashboard statistics.
 
