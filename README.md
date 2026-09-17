@@ -29,8 +29,8 @@ Information about books gets saved in an automatic way into a local books.dat fi
 
 # Technologies and Tools Used
 ## Programming Language
-  ### Java
-GUI
+  * Java
+## GUI
   * Java Swing
   * Java AWT
 ## File Handling
