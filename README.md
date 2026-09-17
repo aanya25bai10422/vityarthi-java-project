@@ -1,9 +1,10 @@
 # vityarthi-java-project
-> Project Overview
+# Project Overview
 Library Management System is an easy-to-use desktop application created on Java Swing. This application helps you manage books within a library.
 With the help of this software, one can perform operations such as adding, searching, issuing, returning, and removing books. Moreover, the system shows the total no. of books, total no. of copies, no. of available copies, and no. of issued copies.
 Information about books gets saved in an automatic way into a local books.dat file.
-Features
+
+# Features
 1.	Adding new books having:
 	Book ID
 		Title 
@@ -26,7 +27,8 @@ Features
 11.	User-Friendly Graphical User Interface (GUI)
 12.	Button having rounded edges and hover effect
 13.	Input validation of Book ID & No. of Copies
-Technologies and Tools Used
+
+# Technologies and Tools Used
 Programming Language
 •	Java
 GUI
@@ -42,13 +44,15 @@ Development Tools
 •	JDK (Java Development Kit)
 •	 IntelliJ IDEA
 •	Git and GitHub for version control and project submission
-Installation and Setup
+
+# Installation and Setup
 Step 1: Installing Java
 Download and install JDK on your machine.
 Verify that Java is installed by opening Command Prompt/Terminal and executing:
 java -version
 Similarly, check Java compiler:
 javac -version
+
 Step 2: Clone/download the Project
 Git clone the project:
 git clone <YOUR_GITHUB_REPOSITORY_URL>
@@ -69,7 +73,8 @@ javac *.java
 Step 5: Running the Application
 Run Main.java
 Library Manager application window will open.
-How to Use the Application
+
+# How to Use the Application
 1. Add Book
 Click Add Book and enter:
 •	Book ID
@@ -99,7 +104,8 @@ Click Remove and enter the Book Name.
 A book can only be removed when none of its copies are currently issued.
 6. Refresh
 Click Refresh to reload the table and update the dashboard statistics.
-Testing Instructions
+
+# Testing Instructions
 The following test cases can be used to verify the application.
 
 
