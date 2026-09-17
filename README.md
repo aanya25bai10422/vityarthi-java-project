@@ -106,15 +106,18 @@ Library Manager application window will open.
 # How to Use the Application
 
 1. Add Book
+
 Click Add Book and enter:
 * Book ID
 * Book Title
 * Author
 * Category
 * Total Number of Copies
+
 The book will be added to the library and its information will appear in the table.
 
 2. Search Book
+
 Click Search and enter the Book Name.
 The application displays the books:
 * ID
@@ -126,18 +129,22 @@ The application displays the books:
 * Issued Copies
 
 3. Issue Book
+
 Click Issue Book and enter the Book Name.
 If a copy is available, the available copy count decreases and the issued copy count increases.
 
 4. Return Book
+
 Click Return Book and enter the Book Name.
 The available copy count increases and the issued copy count decreases.
 
 5. Remove Book
+
 Click Remove and enter the Book Name.
 A book can only be removed when none of its copies are currently issued.
 
 6. Refresh
+
 Click Refresh to reload the table and update the dashboard statistics.
 
 ---
@@ -146,9 +153,15 @@ Click Refresh to reload the table and update the dashboard statistics.
 
 The following test cases can be used to verify the application.
 
+| S.No | Action | Expected Reault |
+| :--- | :---: | ---: |
+|1|Add a book with ID 1 and 20 copies|Book is added successfully|
+|2|||
+|3|||
+|4|||
 
-S.No
-	Action	Expected Result
+
+
 1	Add a book with ID 1 and 20 copies	Book is added successfully
 2	Add another book with ID 1	Duplicate ID message is displayed
 3
