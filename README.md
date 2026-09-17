@@ -61,6 +61,7 @@ Information about books gets saved in an automatic way into a local books.dat fi
 # Installation and Setup
 
 Step 1: Installing Java
+
 Download and install JDK on your machine.
 Verify that Java is installed by opening Command Prompt/Terminal and executing:
 ```
@@ -74,6 +75,7 @@ javac -version
 ```
 
 Step 2: Clone/download the Project
+
 Git clone the project:
 ```
 git clone https://github.com/aanya25bai10422/vityarthi-java-project.git
@@ -81,6 +83,7 @@ git clone https://github.com/aanya25bai10422/vityarthi-java-project.git
 Alternatively, you may download the entire project as ZIP and unpack it.
 
 Step 3: Opening the Project
+
 Open the project in Java IDE like IntelliJ IDEA.
 Check for the presence of following files:
 * Main.java
@@ -89,13 +92,13 @@ Check for the presence of following files:
 * RoundedButton.java
 
 Step 4: Compiling the Program
+
 In terminal, navigate to project directory and execute:
 ```javac *.java```
 
 Step 5: Running the Application
 
 Run ```Main.java```
-
 Library Manager application window will open.
 
 ---
