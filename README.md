@@ -93,11 +93,11 @@ In terminal, navigate to project directory and execute:
 ```javac *.java```
 
 Step 5: Running the Application
----
+
 Run ```Main.java```
----
+
 Library Manager application window will open.
----
+
 ---
 
 # How to Use the Application
