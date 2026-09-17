@@ -47,10 +47,10 @@ Information about books gets saved in an automatic way into a local books.dat fi
 # Installation and Setup
 Step 1: Installing Java
 Download and install JDK on your machine.
-```Verify that Java is installed by opening Command Prompt/Terminal and executing:```
-java -version
+Verify that Java is installed by opening Command Prompt/Terminal and executing:
+```java -version```
 Similarly, check Java compiler:
-javac -version
+```javac -version```
 
 Step 2: Clone/download the Project
 Git clone the project:
