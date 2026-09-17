@@ -5,7 +5,7 @@ Information about books gets saved in an automatic way into a local books.dat fi
 
 # Features
 1.	Adding new books having:
-## Book ID
+### Book ID
 		Title 
 	Author
 		Category
@@ -27,7 +27,7 @@ Information about books gets saved in an automatic way into a local books.dat fi
 12.	Button having rounded edges and hover effect
 13.	Input validation of Book ID & No. of Copies
 
-Technologies and Tools Used
+# Technologies and Tools Used
 Programming Language
 •	Java
 GUI
@@ -44,15 +44,13 @@ Development Tools
 •	 IntelliJ IDEA
 •	Git and GitHub for version control and project submission
 
-Installation and Setup
+# Installation and Setup
 Step 1: Installing Java
 Download and install JDK on your machine.
 Verify that Java is installed by opening Command Prompt/Terminal and executing:
 java -version
 Similarly, check Java compiler:
 javac -version
-
-
 
 Step 2: Clone/download the Project
 Git clone the project:
@@ -76,7 +74,7 @@ Run Main.java
 Library Manager application window will open.
 
 
-How to Use the Application
+# How to Use the Application
 1. Add Book
 Click Add Book and enter:
 •	Book ID
@@ -109,7 +107,7 @@ Click Refresh to reload the table and update the dashboard statistics.
 
 
 
-Testing Instructions
+# Testing Instructions
 The following test cases can be used to verify the application.
 
 
