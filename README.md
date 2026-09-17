@@ -99,6 +99,7 @@ In terminal, navigate to project directory and execute:
 Step 5: Running the Application
 
 Run ```Main.java```
+
 Library Manager application window will open.
 
 ---
