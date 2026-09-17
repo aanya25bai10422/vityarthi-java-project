@@ -22,8 +22,6 @@ The scope of this project includes managing book records in a small or medium-si
 - View total, available, and issued copies through the dashboard.
 - Store book data using file serialization so that records remain available after closing the application.
 
-The project focuses on basic library operations and does not include advanced features such as online reservations, user accounts, fine calculation, or database connectivity.
-
 ---
 
 ## Target Users
@@ -60,7 +58,7 @@ The system is mainly designed for:
 8. **Book Table**  
    Displays complete information about all books in an organized table.
 
----
-
-10. **User-Friendly GUI**  
+9. **User-Friendly GUI**  
    Provides a simple Java Swing interface with buttons, dashboard cards, and a book table for easy interaction.
+
+   ---
