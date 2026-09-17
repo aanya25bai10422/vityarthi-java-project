@@ -1,11 +1,11 @@
-Project Overview
+# Project Overview
 Library Management System is an easy-to-use desktop application created on Java Swing. This application helps you manage books within a library.
 With the help of this software, one can perform operations such as adding, searching, issuing, returning, and removing books. Moreover, the system shows the total no. of books, total no. of copies, no. of available copies, and no. of issued copies.
 Information about books gets saved in an automatic way into a local books.dat file.
 
-Features
+# Features
 1.	Adding new books having:
-	Book ID
+## Book ID
 		Title 
 	Author
 		Category
