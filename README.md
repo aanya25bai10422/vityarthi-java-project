@@ -1,9 +1,18 @@
+# vityrathi-java-project
+# Library Management System
+
+---
+
 # Project Overview
+
 Library Management System is an easy-to-use desktop application created on Java Swing. This application helps you manage books within a library.
 With the help of this software, one can perform operations such as adding, searching, issuing, returning, and removing books. Moreover, the system shows the total no. of books, total no. of copies, no. of available copies, and no. of issued copies.
 Information about books gets saved in an automatic way into a local books.dat file.
 
+---
+
 # Features
+
 1.	Adding new books having:
 * Book ID
 * Title 
@@ -27,7 +36,10 @@ Information about books gets saved in an automatic way into a local books.dat fi
 12.	Button having rounded edges and hover effect
 13.	Input validation of Book ID & No. of Copies
 
+---
+
 # Technologies and Tools Used
+
 ## Programming Language
   * Java
 ## GUI
@@ -43,36 +55,48 @@ Information about books gets saved in an automatic way into a local books.dat fi
   * JDK (Java Development Kit)
   * IntelliJ IDEA
   * Git and GitHub for version control and project submission
+    
+---
 
 # Installation and Setup
+
 Step 1: Installing Java
 Download and install JDK on your machine.
 Verify that Java is installed by opening Command Prompt/Terminal and executing:
-```java -version```
+```
+java -version
+```
+
 Similarly, check Java compiler:
-```javac -version```
+
+```
+javac -version
+```
 
 Step 2: Clone/download the Project
 Git clone the project:
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+```
+git clone https://github.com/aanya25bai10422/vityarthi-java-project.git
+```
 Alternatively, you may download the entire project as ZIP and unpack it.
 
 Step 3: Opening the Project
 Open the project in Java IDE like IntelliJ IDEA.
 Check for the presence of following files:
-Main.java
-Book.java
-Library.java
-RoundedButton.java
+* Main.java
+* Book.java
+* Library.java
+* RoundedButton.java
 
 Step 4: Compiling the Program
 In terminal, navigate to project directory and execute:
-javac *.java
+```javac *.java```
 
 Step 5: Running the Application
-Run Main.java
+Run ```Main.java```
 Library Manager application window will open.
 
+---
 
 # How to Use the Application
 
@@ -111,9 +135,10 @@ A book can only be removed when none of its copies are currently issued.
 6. Refresh
 Click Refresh to reload the table and update the dashboard statistics.
 
-
+---
 
 # Testing Instructions
+
 The following test cases can be used to verify the application.
 
 
