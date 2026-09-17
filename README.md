@@ -63,7 +63,7 @@ Information about books gets saved in an automatic way into a local books.dat fi
 Step 1: Installing Java
 
 Download and install JDK on your machine.
-Verify that Java is installed by opening Command Prompt/Terminal and executing:
+Verify that Java is installed by opening Command Terminal and executing:
 ```
 java -version
 ```
@@ -74,7 +74,7 @@ Similarly, check Java compiler:
 javac -version
 ```
 
-Step 2: Clone/download the Project
+Step 2: Clone the Project
 
 Git clone the project:
 ```
@@ -153,35 +153,22 @@ Click Refresh to reload the table and update the dashboard statistics.
 
 The following test cases can be used to verify the application.
 
-| S.No | Action | Expected Reault |
+| S.No | Action | Expected Result |
 | :--- | :---: | ---: |
 |1|Add a book with ID 1 and 20 copies|Book is added successfully|
-|2|||
-|3|||
-|4|||
+|2|Add another book with ID 1|Duplicate ID message is displayed|
+|3|Search for ID 1|Book details are displayed|
+|4|Issue book 1|Available copies decrease by 1|
+|5|Return book 1|Available copies increase by 1|
+|6|Try to return a book with no issued copies|Error message is displayed|
+|7|Issue all available copies|Available copies become 0|
+|8|Issue the same book again when copies are 0|Application displays that no copies are available|
+|9|Try to remove a book with issued copies|Application prevents removal|
+|10|Return all issued copies and remove the book|Book is removed successfully|
+|11|Enter letters instead of a Book ID|Invalid number message is displayed|
+|12|Close and reopen the application|Previously saved books are loaded|
 
 
-
-1	Add a book with ID 1 and 20 copies	Book is added successfully
-2	Add another book with ID 1	Duplicate ID message is displayed
-3
-	Search for ID 1	Book details are displayed
-4
-	Issue book 1	Available copies decrease by 1
-5
-	Return book 1	Available copies increase by 1
-6
-	Try to return a book with no issued copies	Error message is displayed
-7
-	Issue all available copies	Available copies become 0
-8
-	Issue the same book again when copies are 0	Application displays that no copies are available
-9
-	Try to remove a book with issued copies	Application prevents removal
-10	Return all issued copies and remove the book	Book is removed successfully
-11	Enter letters instead of a Book ID	Invalid number message is displayed
-12
-	Close and reopen the application	Previously saved books are loaded
 
 
 
