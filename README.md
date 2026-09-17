@@ -28,18 +28,18 @@ Information about books gets saved in an automatic way into a local books.dat fi
 13.	Input validation of Book ID & No. of Copies
 
 # Technologies and Tools Used
-Programming Language
-  * Java
+## Programming Language
+  ### Java
 GUI
   * Java Swing
   * Java AWT
-File Handling
+## File Handling
   * ObjectOutputStream
   * ObjectInputStream
   * Java Serialization
-Data Structure
+## Data Structure
   * ArrayList
-Development Tools
+## Development Tools
   * JDK (Java Development Kit)
   * IntelliJ IDEA
   * Git and GitHub for version control and project submission
